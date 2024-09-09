@@ -1,2 +1,74 @@
 @import url("/node_modules/bootstrap-icons/font/bootstrap-icons.css");
 @import 'custom';
+
+/* Format mobile */
+
+.logo {
+    height: 80px;
+  }
+  
+  .navbar {
+    height: 100px;
+  }
+    /* photo home */
+    .picture-home {
+        background-image: url(../public/images/img-home.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: right;  
+        align-items: center;     
+        height: 300px; 
+        background-size: cover;   
+        background-position: center;
+        filter: brightness(0.8);
+    }
+ 
+
+  
+  /* Format tablette */
+  
+  @media screen and (min-width: 768px) {
+    .logo {
+      height: 100px;
+    }
+    .navbar {
+      height: 150px;
+    }
+
+    /* photo home */
+
+    .picture-home {
+        display: flex;
+        justify-content: right;  
+        align-items: center;     
+        height: 350px; 
+        background-size: cover;   
+        background-position: center;
+        }
+ 
+
+  }
+  
+
+  
+  /* Format desktop */
+  
+  @media screen and (min-width: 1024px) {
+    .logo {
+      height: 100px;
+    }
+    .navbar {
+      height: 100px;
+    }
+   
+    /* photo home */
+
+    .picture-home {
+    display: flex;
+    justify-content: right;  
+    align-items: center;     
+    height: 100vh; 
+    }
+
+    
+  }
