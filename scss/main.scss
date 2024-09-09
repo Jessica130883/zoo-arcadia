@@ -10,10 +10,17 @@
   .navbar {
     height: 100px;
   }
-    /* photo home*/
+    /* photo home */
     .picture-home {
         background-image: url(../public/images/img-home.jpg);
         background-size: cover;
+        display: flex;
+        justify-content: right;  
+        align-items: center;     
+        height: 300px; 
+        background-size: cover;   
+        background-position: center;
+        filter: brightness(0.8);
     }
  
 
@@ -28,7 +35,17 @@
       height: 150px;
     }
 
+    /* photo home */
 
+    .picture-home {
+        display: flex;
+        justify-content: right;  
+        align-items: center;     
+        height: 350px; 
+        background-size: cover;   
+        background-position: center;
+        }
+ 
 
   }
   
@@ -44,5 +61,14 @@
       height: 100px;
     }
    
+    /* photo home */
+
+    .picture-home {
+    display: flex;
+    justify-content: right;  
+    align-items: center;     
+    height: 100vh; 
+    }
+
     
   }

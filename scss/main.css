@@ -11975,10 +11975,17 @@ textarea.form-control-lg {
   height: 100px;
 }
 
-/* photo home*/
+/* photo home */
 .picture-home {
   background-image: url(../public/images/img-home.jpg);
   background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.8);
 }
 
 /* Format tablette */
@@ -11989,6 +11996,15 @@ textarea.form-control-lg {
   .navbar {
     height: 150px;
   }
+  /* photo home */
+  .picture-home {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+  }
 }
 /* Format desktop */
 @media screen and (min-width: 1024px) {
@@ -11997,5 +12013,12 @@ textarea.form-control-lg {
   }
   .navbar {
     height: 100px;
+  }
+  /* photo home */
+  .picture-home {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
   }
 }/*# sourceMappingURL=main.css.map */
