@@ -5,39 +5,6 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
-/* Format mobile */
-
-.logo {
-  height: 80px;
-}
-
-.navbar {
-  height: 100px;
-}
-
-/* Format tablette */
-
-@media screen and (min-width: 768px) {
-  .logo {
-    height: 100px;
-  }
-  .navbar {
-    height: 150px;
-  }
-}
-
-/* Format desktop */
-
-@media screen and (min-width: 1024px) {
-  .logo {
-    height: 100px;
-  }
-  .navbar {
-    height: 100px;
-  }
-}
-
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11997,5 +11964,38 @@ textarea.form-control-lg {
   }
   .d-print-none {
     display: none !important;
+  }
+}
+/* Format mobile */
+.logo {
+  height: 80px;
+}
+
+.navbar {
+  height: 100px;
+}
+
+/* photo home*/
+.picture-home {
+  background-image: url(../public/images/img-home.jpg);
+  background-size: cover;
+}
+
+/* Format tablette */
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 100px;
+  }
+  .navbar {
+    height: 150px;
+  }
+}
+/* Format desktop */
+@media screen and (min-width: 1024px) {
+  .logo {
+    height: 100px;
+  }
+  .navbar {
+    height: 100px;
   }
 }/*# sourceMappingURL=main.css.map */
