@@ -24,9 +24,13 @@
         filter: brightness(0.8);
     }
 
-   /* Paragraphe welcome */
+   /* Paragraphe animaux */
 
- 
+        .image-resize {
+          width: 80%; /* Ajuste selon la taille souhaitée */
+          max-width: 300px; /* Optionnel : limite la taille maximale */
+          height: auto;
+        }
 
    
     
@@ -72,5 +76,8 @@
       height: 100px;
     }
   
-    
+   .image-resize {
+    height: 400px;
+    width: 400px;
+   } 
   }
