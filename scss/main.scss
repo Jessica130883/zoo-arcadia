@@ -1,6 +1,7 @@
 @import url("/node_modules/bootstrap-icons/font/bootstrap-icons.css");
 @import 'custom';
 
+
 /* Format mobile */
 
 .logo {
@@ -22,6 +23,11 @@
         background-position: center;
         filter: brightness(0.8);
     }
+
+   
+
+   
+    
  
 
   
@@ -60,15 +66,9 @@
     .navbar {
       height: 100px;
     }
+    
    
-    /* photo home */
-
-    .picture-home {
-    display: flex;
-    justify-content: right;  
-    align-items: center;     
-    height: 100vh; 
-    }
+   
 
     
   }
