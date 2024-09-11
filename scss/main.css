@@ -12002,6 +12002,10 @@ textarea.form-control-lg {
   border-radius: 50%;
 }
 
+.card {
+  border: none;
+}
+
 /* Format tablette */
 @media screen and (min-width: 768px) {
   .logo {
@@ -12025,6 +12029,9 @@ textarea.form-control-lg {
     width: 80px;
     border-radius: 50%;
   }
+  .card {
+    border: none;
+  }
 }
 /* Format desktop */
 @media screen and (min-width: 1024px) {
@@ -12043,5 +12050,8 @@ textarea.form-control-lg {
     height: 100px;
     width: 100px;
     border-radius: 50%;
+  }
+  .card {
+    border: none;
   }
 }/*# sourceMappingURL=main.css.map */
