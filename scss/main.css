@@ -11988,6 +11988,20 @@ textarea.form-control-lg {
   filter: brightness(0.8);
 }
 
+/* Paragraphe animaux */
+.image-resize {
+  width: 80%; /* Ajuste selon la taille souhaitée */
+  max-width: 300px; /* Optionnel : limite la taille maximale */
+  height: auto;
+}
+
+/* Avis */
+#img-avis {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
 /* Format tablette */
 @media screen and (min-width: 768px) {
   .logo {
@@ -12005,6 +12019,12 @@ textarea.form-control-lg {
     background-size: cover;
     background-position: center;
   }
+  /* Avis */
+  #img-avis {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
 }
 /* Format desktop */
 @media screen and (min-width: 1024px) {
@@ -12014,11 +12034,14 @@ textarea.form-control-lg {
   .navbar {
     height: 100px;
   }
-  /* photo home */
-  .picture-home {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    height: 100vh;
+  .image-resize {
+    height: 400px;
+    width: 400px;
+  }
+  /* Avis */
+  #img-avis {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
   }
 }/*# sourceMappingURL=main.css.map */
