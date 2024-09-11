@@ -32,8 +32,18 @@
           height: auto;
         }
 
-   
-    
+   /* Avis */
+  #img-avis {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+  .card {
+    border: none;
+  }
+  .section-avis {
+    margin-top: 90px;
+  }  
  
 
   
@@ -58,9 +68,16 @@
         background-position: center;
         }
     
-    /* Paragraphe welcome */
+    /* Avis */
 
-   
+    #img-avis {
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+    }
+    .card {
+      border: none;
+    }
 
   }
   
@@ -80,4 +97,17 @@
     height: 400px;
     width: 400px;
    } 
+
+   /* Avis */
+
+   #img-avis {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .card {
+    border: none;
+  }
+
+
   }
