@@ -2,6 +2,14 @@
 @import 'custom';
 
 
+html{
+  position:relative;
+  min-height: 100%;
+}
+
+main {
+  margin-bottom: 350px;
+}
 /* Format mobile */
 
 .logo {
@@ -60,6 +68,16 @@
   .text-news {
     margin-top: 20px 20px;;
   }
+   /* footer */
+
+   footer.footer {
+   padding: 15px;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+  }
+  
+  
   
   /* Format tablette */
   
@@ -91,6 +109,14 @@
     }
     .card {
       border: none;
+    }
+
+    footer.footer {
+    padding: 15px;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     }
 
   }
@@ -127,6 +153,14 @@
   .image-resize {
     height: 200px;
     width: 200px;
+  }
+
+  /* footer */
+
+  footer.footer {
+    padding: 20px;
+    margin-top: 60px
+    
   }
 
   }
