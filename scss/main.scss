@@ -27,8 +27,8 @@
    /* Paragraphe animaux */
 
         .image-resize {
-          width: 80%; /* Ajuste selon la taille souhaitée */
-          max-width: 300px; /* Optionnel : limite la taille maximale */
+          width: 80%; 
+          max-width: 300px; 
           height: auto;
         }
 
@@ -45,7 +45,11 @@
     margin-top: 90px;
   }  
  
-
+  /* Actualité */
+  .text-news {
+    text-align: justify;
+    max-width: 400px;
+  }
   
   /* Format tablette */
   
@@ -108,6 +112,11 @@
   .card {
     border: none;
   }
+  /* Actualités */
 
+  .image-resize {
+    height: 200px;
+    width: 200px;
+  }
 
   }

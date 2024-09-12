@@ -11990,8 +11990,8 @@ textarea.form-control-lg {
 
 /* Paragraphe animaux */
 .image-resize {
-  width: 80%; /* Ajuste selon la taille souhaitée */
-  max-width: 300px; /* Optionnel : limite la taille maximale */
+  width: 80%;
+  max-width: 300px;
   height: auto;
 }
 
@@ -12008,6 +12008,12 @@ textarea.form-control-lg {
 
 .section-avis {
   margin-top: 90px;
+}
+
+/* Actualité */
+.text-news {
+  text-align: justify;
+  max-width: 400px;
 }
 
 /* Format tablette */
@@ -12057,5 +12063,10 @@ textarea.form-control-lg {
   }
   .card {
     border: none;
+  }
+  /* Actualités */
+  .image-resize {
+    height: 200px;
+    width: 200px;
   }
 }/*# sourceMappingURL=main.css.map */
