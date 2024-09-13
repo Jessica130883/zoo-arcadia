@@ -20,7 +20,7 @@ main {
     height: 100px;
     
   }
-    /* photo home */
+  /* photo home */
     .picture-home {
         background-image: url(../public/images/img-home.jpg);
         background-size: cover;
@@ -40,6 +40,12 @@ main {
           max-width: 300px; 
           height: auto;
         }
+
+    
+  .section-animaux {
+  clear: both; 
+  margin-top: 50px; 
+}
 
    /* Avis */
   #img-avis {
@@ -100,7 +106,11 @@ main {
         background-size: cover;   
         background-position: center;
         }
-    
+      /* Section animaux */
+    .section-animaux {
+        clear: both; 
+        margin-top: 130px; 
+}
     /* Avis */
 
     #img-avis {
@@ -139,6 +149,24 @@ main {
     width: 400px;
    } 
 
+   /* Welcome section */
+
+   .pic-welcome1 img {
+    width: 200px;
+    height: auto;
+   }
+ 
+   .pic-welcome2 img {
+    width: 60%;
+    height: auto;
+
+   }
+  /* Section animaux */
+.section-animaux {
+  clear: both; 
+  margin-top: 150px; 
+}
+  
    /* Avis */
 
    #img-avis {
@@ -158,7 +186,7 @@ main {
 
   /* footer */
 
-  footer.footer {
+    footer.footer {
     padding: 20px;
     margin-top: 60px
     
