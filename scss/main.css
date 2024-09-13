@@ -12050,6 +12050,11 @@ footer.footer {
   width: 100%;
 }
 
+/* Le zoo */
+.list-lezoo {
+  list-style: none;
+}
+
 /* Format tablette */
 @media screen and (min-width: 768px) {
   .logo {
@@ -12087,6 +12092,14 @@ footer.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+  }
+  /* Le zoo */
+  .list-lezoo {
+    list-style: none;
+  }
+  .square-lezoo {
+    height: 330px;
+    width: 290px;
   }
 }
 /* Format desktop */
@@ -12133,5 +12146,9 @@ footer.footer {
   footer.footer {
     padding: 20px;
     margin-top: 60px;
+  }
+  /* Le zoo */
+  .list-lezoo {
+    list-style: none;
   }
 }/*# sourceMappingURL=main.css.map */
