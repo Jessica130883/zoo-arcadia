@@ -1,13 +1,15 @@
 <div class="picture-home text-center"></div>
 
-<h1 class="text-primary">Le zoo</h1>
+
 
 <section class="welcome-section">
-   
+    
+   <div class="container">
+    <h1 class="text-primary">Le zoo</h1>
     <h2 class="welcome-zoo">Bienvenue à Arcadia</h2>
 
-<p class="text-zoo">Pourquoi venir vister notre zoo ?</p>
-    
+    <p class="text-zoo">Pourquoi venir vister notre zoo ?</p>
+    </div>
     <div class="container">
         <div class="row">
            
@@ -63,4 +65,58 @@
         </div>
     </div>
     
+</section>
+
+<section class="section-avis"></section>
+    <h2 class="title-avis text-center">Nos visiteurs parlent de nous</h2>
+
+    <div id="avisCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card bg-secondary d-flex justify-content-center align-items-center w-50 mx-auto"">
+              <img src="/public/images/avis1.jpg" class="card-img-top" id="img-avis" alt="Avis visiteur">
+              <div class="card-body">
+                
+                <p class="card-text">L'avis de l'utilisateur 1.</p>
+                <p>Nom prénom</p>
+                <p class="text-primary">visiteur</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <div class="card bg-secondary d-flex justify-content-center align-items-center w-50 mx-auto"">
+              <img src="" class="card-img-top" id="img-avis" alt="Avis visiteur">
+              <div class="card-body">
+                <p class="card-text">L'avis de l'utilisateur 1.</p>
+                <p>Nom prénom</p>
+                <p class="text-primary">visiteur</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <div class="card bg-secondary d-flex justify-content-center align-items-center w-50 mx-auto"">
+              <img src="" class="card-img-top" id="img-avis" alt="Avis visiteur">
+              <div class="card-body">
+                <p class="card-text">L'avis de l'utilisateur 1.</p>
+                <p>Nom prénom</p>
+                <p class="text-primary">visiteur</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+       
+        <button class="carousel-control-prev" type="button" data-bs-target="#avisCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#avisCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      
 </section>
