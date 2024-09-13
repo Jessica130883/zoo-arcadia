@@ -34,27 +34,36 @@
 
         <h2 class="title-form text-center">Envoyez-nous un message !</h2>
 
-        <form action="" method="post">
-
-        <div class="mb-3">
-            <div class="row">
-                <div class="col-6">
-                <label for="name" class="form-label">*Nom</label>
-                  <input type="text" class="form-control" placeholder="Nom" aria-label="Name">
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-6"> 
+                        <form action="" method="post">
+                          
+                            <div class="mb-3">
+                                <label for="name" class="form-label">*Nom</label>
+                                <input type="text" class="form-control" id="name" placeholder="Nom" aria-label="Nom" required>
+                            </div>
+                            
+                           
+                            <div class="mb-3">
+                                <label for="email" class="form-label">*Adresse e-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="e-mail" required>
+                            </div>
+                            
+                         
+                            <div class="mb-3">
+                                <label for="message" class="form-label">*Message</label>
+                                <textarea class="form-control" id="message" placeholder="Message" rows="3" required></textarea>
+                            </div>
+                            
+                            
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Envoyer</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-              </div>
-              <div col-6>
-            <label for="email" class="form-label">*Adresse e-mail</label>
-            <input type="email" class="form-control" id="email" placeholder="e-mail">
-        </div>
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">*Message</label>
-            <textarea class="form-control" id="message" placeholder="Message" rows="3"></textarea>
-          </div>
-          <div class="col-auto">
-            <button type="submit" class="btn btn-primary">Envoyer</button>
-          </div>
+            </div>
         </form>
 
 </section>
