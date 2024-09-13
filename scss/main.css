@@ -12055,6 +12055,15 @@ footer.footer {
   list-style: none;
 }
 
+.square-lezoo {
+  height: 330px;
+  width: 290px;
+}
+
+.nb-box {
+  margin-top: 50px;
+}
+
 /* Format tablette */
 @media screen and (min-width: 768px) {
   .logo {
@@ -12100,6 +12109,9 @@ footer.footer {
   .square-lezoo {
     height: 330px;
     width: 290px;
+  }
+  .nb-box {
+    margin-top: 50px;
   }
 }
 /* Format desktop */
