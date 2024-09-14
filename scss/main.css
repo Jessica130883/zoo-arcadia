@@ -12069,6 +12069,16 @@ footer.footer {
   margin-top: 40px;
 }
 
+.zoo-map {
+  height: 300px;
+  width: 300px;
+}
+
+.section-map {
+  margin-top: 40px;
+  clear: both;
+}
+
 /* Format tablette */
 @media screen and (min-width: 768px) {
   .logo {
