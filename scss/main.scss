@@ -114,6 +114,11 @@ main {
     margin-top: 40px;
     clear: both;
    }
+  /* Services */
+  .text-restaurant {
+    max-width: 350px;
+    text-align: justify;
+  }
 
   
   
@@ -189,6 +194,12 @@ main {
     clear: both;
    }
 
+   /* Services */
+  .text-restaurant {
+    max-width: 350px;
+    text-align: justify;
+  }
+
   
   /* Format desktop */
   
@@ -258,5 +269,9 @@ main {
   margin-top: 100px;
  }
 
-
+/* Services */
+.text-restaurant {
+  max-width: 550px;
+  text-align: justify;
+}
   }

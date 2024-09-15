@@ -12079,6 +12079,12 @@ footer.footer {
   clear: both;
 }
 
+/* Services */
+.text-restaurant {
+  max-width: 350px;
+  text-align: justify;
+}
+
 /* Format tablette */
 @media screen and (min-width: 768px) {
   .logo {
@@ -12144,6 +12150,12 @@ footer.footer {
   clear: both;
 }
 
+/* Services */
+.text-restaurant {
+  max-width: 350px;
+  text-align: justify;
+}
+
 /* Format desktop */
 @media screen and (min-width: 1024px) {
   .logo {
@@ -12196,5 +12208,10 @@ footer.footer {
   /* Page contact */
   .page-contact {
     margin-top: 100px;
+  }
+  /* Services */
+  .text-restaurant {
+    max-width: 550px;
+    text-align: justify;
   }
 }/*# sourceMappingURL=main.css.map */
