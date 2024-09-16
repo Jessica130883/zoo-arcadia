@@ -12080,7 +12080,7 @@ footer.footer {
 }
 
 /* Services */
-.text-restaurant {
+.text-restaurant, .text-habitat, .text-zoo {
   max-width: 350px;
   text-align: justify;
 }
@@ -12151,7 +12151,7 @@ footer.footer {
 }
 
 /* Services */
-.text-restaurant {
+.text-restaurant, .text-habitat, .text-zoo {
   max-width: 350px;
   text-align: justify;
 }
@@ -12210,7 +12210,7 @@ footer.footer {
     margin-top: 100px;
   }
   /* Services */
-  .text-restaurant {
+  .text-restaurant, .text-habitat, .text-zoo {
     max-width: 550px;
     text-align: justify;
   }
