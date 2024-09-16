@@ -100,7 +100,26 @@ main {
   .nb-box {
     margin-top: 50px;
   }
-  
+
+  /* Page contact */
+  .page-contact {
+    margin-top: 40px;
+   }
+
+   .zoo-map {
+    height: 300px;
+    width: 300px;
+   }
+   .section-map {
+    margin-top: 40px;
+    clear: both;
+   }
+  /* Services */
+  .text-restaurant, .text-habitat, .text-zoo {
+    max-width: 350px;
+    text-align: justify;
+  }
+
   
   
   /* Format tablette */
@@ -161,7 +180,25 @@ main {
   }
 
   }
-  
+  /* Page contact */
+  .page-contact {
+    margin-top: 40px;
+   }
+
+   .zoo-map {
+    height: 300px;
+    width: 300px;
+   }
+   .section-map {
+    margin-top: 40px;
+    clear: both;
+   }
+
+   /* Services */
+  .text-restaurant, .text-habitat, .text-zoo {
+    max-width: 350px;
+    text-align: justify;
+  }
 
   
   /* Format desktop */
@@ -227,4 +264,14 @@ main {
     list-style: none;
   }
 
+  /* Page contact */
+ .page-contact {
+  margin-top: 100px;
+ }
+
+/* Services */
+.text-restaurant, .text-habitat, .text-zoo {
+  max-width: 550px;
+  text-align: justify;
+}
   }

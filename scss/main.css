@@ -12064,6 +12064,27 @@ footer.footer {
   margin-top: 50px;
 }
 
+/* Page contact */
+.page-contact {
+  margin-top: 40px;
+}
+
+.zoo-map {
+  height: 300px;
+  width: 300px;
+}
+
+.section-map {
+  margin-top: 40px;
+  clear: both;
+}
+
+/* Services */
+.text-restaurant, .text-habitat, .text-zoo {
+  max-width: 350px;
+  text-align: justify;
+}
+
 /* Format tablette */
 @media screen and (min-width: 768px) {
   .logo {
@@ -12114,6 +12135,27 @@ footer.footer {
     margin-top: 50px;
   }
 }
+/* Page contact */
+.page-contact {
+  margin-top: 40px;
+}
+
+.zoo-map {
+  height: 300px;
+  width: 300px;
+}
+
+.section-map {
+  margin-top: 40px;
+  clear: both;
+}
+
+/* Services */
+.text-restaurant, .text-habitat, .text-zoo {
+  max-width: 350px;
+  text-align: justify;
+}
+
 /* Format desktop */
 @media screen and (min-width: 1024px) {
   .logo {
@@ -12162,5 +12204,14 @@ footer.footer {
   /* Le zoo */
   .list-lezoo {
     list-style: none;
+  }
+  /* Page contact */
+  .page-contact {
+    margin-top: 100px;
+  }
+  /* Services */
+  .text-restaurant, .text-habitat, .text-zoo {
+    max-width: 550px;
+    text-align: justify;
   }
 }/*# sourceMappingURL=main.css.map */
