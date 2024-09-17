@@ -12096,6 +12096,17 @@ footer.footer {
   margin-top: 80px;
 }
 
+/* Jungle Animaux */
+.details-jungle {
+  max-width: 400px;
+  text-align: justify;
+  margin: auto;
+}
+
+.jungle-section {
+  margin-top: 80px;
+}
+
 /* Format tablette */
 @media screen and (min-width: 768px) {
   .logo {
@@ -12178,6 +12189,17 @@ footer.footer {
   margin-top: 80px;
 }
 
+/* Jungle Animaux */
+.details-jungle {
+  max-width: 400px;
+  text-align: justify;
+  margin: auto;
+}
+
+.jungle-section {
+  margin-top: 80px;
+}
+
 /* Format desktop */
 @media screen and (min-width: 1024px) {
   .logo {
@@ -12244,5 +12266,11 @@ footer.footer {
   }
   .img-winnie {
     background-image: url(../public/images/img-animals/winnie-antilope.jpg);
+  }
+  /* Jungle Animaux */
+  .details-jungle {
+    max-width: 600px;
+    text-align: justify;
+    margin: auto;
   }
 }/*# sourceMappingURL=main.css.map */
