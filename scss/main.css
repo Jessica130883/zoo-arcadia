@@ -12242,4 +12242,7 @@ footer.footer {
     text-align: justify;
     margin: auto;
   }
+  .img-winnie {
+    background-image: url(../public/images/img-animals/winnie-antilope.jpg);
+  }
 }/*# sourceMappingURL=main.css.map */
