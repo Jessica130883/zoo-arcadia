@@ -120,6 +120,17 @@ main {
     text-align: justify;
   }
 
+  /* Savane Animaux */
+  .details-savane {
+    max-width: 400px;
+    text-align: justify;
+    margin: auto;
+  
+  }
+  .savane-section {
+    margin-top: 80px;
+  }
+
   
   
   /* Format tablette */
@@ -200,6 +211,17 @@ main {
     text-align: justify;
   }
 
+  /* Savane Animaux */
+  .details-savane {
+    max-width: 400px;
+    text-align: justify;
+    margin: auto;
+  
+  }
+  .savane-section {
+    margin-top: 80px;
+  }
+
   
   /* Format desktop */
   
@@ -273,5 +295,19 @@ main {
 .text-restaurant, .text-habitat, .text-zoo {
   max-width: 550px;
   text-align: justify;
+}
+
+/* Savane Animaux */
+
+.details-savane {
+  max-width: 600px;
+  text-align: justify;
+  margin: auto;
+}
+.img-winnie {
+
+  background-image: url(../public/images/img-animals/winnie-antilope.jpg);
+
+
 }
   }
