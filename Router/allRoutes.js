@@ -8,6 +8,7 @@ export const allRoutes = [
     new Route("/tarifsetservices", "Tarifs et Services", "/pages/tarifsetservices.html"),
     new Route("/savane-animaux", "La savane et ses animaux", "/pages/savane-animaux.html"),
     new Route("/jungle-animaux", "La jungle et ses animaux", "/pages/jungle-animaux.html"),
+    new Route("/marais-animaux", "Le marais et ses animaux", "/pages/marais-animaux.html"),
 ];
 //Le titre s'affiche comme ceci : Route.titre - websitename
 export const websiteName = "Zoo Arcadia";
