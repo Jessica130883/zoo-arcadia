@@ -12107,6 +12107,15 @@ footer.footer {
   margin-top: 80px;
 }
 
+/* Marais Aniamaux */
+.marais-section {
+  margin-top: 50px;
+}
+
+.animaux-section {
+  margin-top: 50px;
+}
+
 /* Format tablette */
 @media screen and (min-width: 768px) {
   .logo {
@@ -12200,6 +12209,15 @@ footer.footer {
   margin-top: 80px;
 }
 
+/* Marais Aniamaux */
+.marais-section {
+  margin-top: 50px;
+}
+
+.animaux-section {
+  margin-top: 50px;
+}
+
 /* Format desktop */
 @media screen and (min-width: 1024px) {
   .logo {
@@ -12272,5 +12290,12 @@ footer.footer {
     max-width: 600px;
     text-align: justify;
     margin: auto;
+  }
+  /* Marais Aniamaux */
+  .marais-section {
+    margin-top: 80px;
+  }
+  .animaux-section {
+    margin-top: 80px;
   }
 }/*# sourceMappingURL=main.css.map */
