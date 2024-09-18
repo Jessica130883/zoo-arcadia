@@ -12120,6 +12120,21 @@ footer.footer {
   margin-bottom: 50px;
 }
 
+/* Page login */
+.header-login {
+  height: 150px;
+  width: 100%;
+}
+
+.title-login {
+  height: 190px;
+  clear: both;
+}
+
+.container-form {
+  margin-top: 50px;
+}
+
 /* Format tablette */
 @media screen and (min-width: 768px) {
   .logo {
@@ -12226,6 +12241,21 @@ footer.footer {
   margin-bottom: 50px;
 }
 
+/* Page login */
+.header-login {
+  height: 150px;
+  width: 100%;
+}
+
+.title-login {
+  height: 190px;
+  clear: both;
+}
+
+.container-form {
+  margin-top: 50px;
+}
+
 /* Format desktop */
 @media screen and (min-width: 1024px) {
   .logo {
@@ -12308,5 +12338,17 @@ footer.footer {
   }
   .title-animaux-marais {
     margin-bottom: 80px;
+  }
+  /* Page login */
+  .header-login {
+    height: 150px;
+    width: 100%;
+  }
+  .title-login {
+    height: 190px;
+    clear: both;
+  }
+  .container-form {
+    margin-top: 50px;
   }
 }/*# sourceMappingURL=main.css.map */
