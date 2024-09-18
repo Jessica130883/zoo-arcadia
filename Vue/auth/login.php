@@ -23,23 +23,23 @@
         <h1 class="login-title text-center text-secondary pt-5">Page de connexion</h1>
 </div>
 
-<div class="container mt-5 mb-5 container-form">
-    <h2 class="title-connecter mb-4 text-center">Se connecter</h2>
+<div class="container mt-5 mb-5 container-form bg-primary">
+    <h2 class="title-connecter mb-4 pt-5 text-center text-secondary">Connexion</h2>
     <form>
-        <div class="mb-3">
-          <label for="EmailInput" class="form-label">Email</label>
-          <input type="email" class="form-control" id="EmailInput" placeholder="test@mail.fr" name="Email"> 
+        <div class="mb-3 form-group">
+          <label for="EmailInput" class="form-label text-secondary">Email</label>
+          <input type="email" class="form-control custom-width-input" id="EmailInput" placeholder="test@mail.fr" name="Email"> 
         </div>
-        <div class="mb-3">
-          <label for="PasswordInput" class="form-label">Mot de passe</label>
-          <input type="password" class="form-control" id="PasswordInput" name="Password">
+        <div class="mb-3 form-group">
+          <label for="PasswordInput" class="form-label text-secondary">Mot de passe</label>
+          <input type="password" class="form-control custom-width-input" id="PasswordInput" name="Password">
         </div>
         <div class="text-center">
-            <button type="submit" class="btn btn-primary">Connexion</button>
+            <button type="submit" class="btn btn-primary btn-login bg-secondary text-primary">Login</button>
         </div>
     </form>
     <div class="text-center pt-3">
-        <a href="/signup">Vous n’avez pas de compte ? Inscrivez-vous ici !</a>
+        <a href="#">Vous n’avez pas de compte ? Inscrivez-vous ici !</a>
     </div>
 </div>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

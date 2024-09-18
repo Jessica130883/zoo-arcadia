@@ -12344,11 +12344,22 @@ footer.footer {
     height: 150px;
     width: 100%;
   }
-  .title-login {
-    height: 190px;
-    clear: both;
+  .custom-width-input {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  .form-label {
+    margin-left: 25%;
   }
   .container-form {
-    margin-top: 50px;
+    height: 800px;
+    width: 550px;
+    margin-bottom: 200px;
+  }
+  .btn-login {
+    height: 45px;
+    width: 100px;
+    margin-left: -395px;
   }
 }/*# sourceMappingURL=main.css.map */
