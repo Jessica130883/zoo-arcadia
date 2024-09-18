@@ -12116,6 +12116,10 @@ footer.footer {
   margin-top: 50px;
 }
 
+.title-animaux-marais {
+  margin-bottom: 50px;
+}
+
 /* Format tablette */
 @media screen and (min-width: 768px) {
   .logo {
@@ -12218,6 +12222,10 @@ footer.footer {
   margin-top: 50px;
 }
 
+.title-animaux-marais {
+  margin-bottom: 50px;
+}
+
 /* Format desktop */
 @media screen and (min-width: 1024px) {
   .logo {
@@ -12297,5 +12305,8 @@ footer.footer {
   }
   .animaux-section {
     margin-top: 80px;
+  }
+  .title-animaux-marais {
+    margin-bottom: 80px;
   }
 }/*# sourceMappingURL=main.css.map */
