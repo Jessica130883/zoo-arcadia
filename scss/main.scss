@@ -260,6 +260,24 @@ main {
   z-index: 1;
 
  }
+ /* Section Welcome */
+ .title-welcome, .subtitle-welcome {
+  font-family: poppins;
+ }
+ .subtitle-welcome {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+ }
+ .text-section {
+  margin: auto;
+  max-width: 600px;
+  font-family: lora;
+  text-align: justify;
+  margin-bottom: 20px;
+  text-justify: inter-word;
+  line-height: 1.6;
+ }
     /* Avis */
 
     #img-avis {
