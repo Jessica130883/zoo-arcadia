@@ -21,8 +21,16 @@ main {
   
   .navbar {
     height: 100px;
-    
+  
   }
+  .navbar-collapse {
+    z-index: 2;
+}
+.nav-link {
+  color: $secondary;
+  font-family: poppins;
+}
+
   /* photo home */
     .picture-home {
         background-image: url(../public/images/img-home.jpg);
@@ -175,6 +183,10 @@ main {
     .navbar {
       height: 150px;
     }
+    .nav-link {
+      color: $secondary;
+    }
+
 
     /* photo home */
 
@@ -296,6 +308,9 @@ main {
     }
     .navbar {
       height: 100px;
+    }
+    .nav-link {
+      color: $primary;
     }
   
    .image-resize {
