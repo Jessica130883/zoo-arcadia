@@ -43,6 +43,26 @@ main {
         background-position: center;
         filter: brightness(0.8);
     }
+    .click-header {
+      margin-right: 40px;
+      font-family: lora;
+    }
+    .title-infos {
+      font-family: poppins;
+      font-size: 15px;
+    
+     }
+     .box-infos {
+      display: flex;            
+      justify-content: center;   
+      align-items: center; 
+      margin-bottom: 70px;
+      height: 100px;
+      width: 80px;
+      margin-top: -70px;
+      z-index: 1;
+    
+     }
 
    /* Paragraphe animaux */
 
@@ -190,7 +210,7 @@ main {
 
     /* photo home */
 
-    .picture-home {
+.picture-home {
         display: flex;
         justify-content: right;  
         align-items: center;     
@@ -198,11 +218,30 @@ main {
         background-size: cover;   
         background-position: center;
         }
+
+.click-header {
+        margin-right: 40px;
+        }
       /* Section animaux */
-    .section-animaux {
+.section-animaux {
         clear: both; 
         margin-top: 130px; 
 }
+.title-infos {
+  font-family: poppins;
+  font-size: 15px;
+
+ }
+ .box-infos {
+  display: flex;            
+  justify-content: center;   
+  align-items: center; 
+  margin-bottom: 90px;
+  height: 120px;
+  margin-top: -70px;
+  z-index: 1;
+
+ }
     /* Avis */
 
     #img-avis {
@@ -330,6 +369,24 @@ main {
     height: auto;
 
    }
+   .click-header {
+    margin-right: 50px;
+  }
+ .title-infos {
+  font-family: poppins;
+  font-size: 25px;
+
+ }
+ .box-infos {
+  display: flex;            
+  justify-content: center;   
+  align-items: center; 
+  margin-bottom: 90px;
+  height: 180px;
+  margin-top: -70px;
+  z-index: 1;
+
+ }
   /* Section animaux */
 .section-animaux {
   clear: both; 
