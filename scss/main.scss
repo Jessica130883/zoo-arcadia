@@ -63,7 +63,25 @@ main {
       z-index: 1;
     
      }
-
+    
+  /* Section Welcome */
+  .title-welcome, .subtitle-welcome {
+    font-family: poppins;
+   }
+   .subtitle-welcome {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   }
+   .text-section {
+    margin: auto;
+    max-width: 600px;
+    font-family: lora;
+    text-align: justify;
+    margin-bottom: 20px;
+    text-justify: inter-word;
+    line-height: 1.6;
+   }
    /* Paragraphe animaux */
 
         .image-resize {
@@ -359,6 +377,22 @@ main {
 
    /* Welcome section */
 
+   .title-welcome, .subtitle-welcome {
+    font-family: poppins;
+   }
+   .subtitle-welcome {
+    font-size: 25px;
+    margin-bottom: 80px;
+   }
+   .text-section {
+    margin: auto;
+    max-width: 600px;
+    font-family: lora;
+    text-align: justify;
+    margin-bottom: 20px;
+    text-justify: inter-word;
+    line-height: 1.6;
+   }
    .pic-welcome1 img {
     width: 200px;
     height: auto;
@@ -374,7 +408,7 @@ main {
   }
  .title-infos {
   font-family: poppins;
-  font-size: 25px;
+  font-size: 20px;
 
  }
  .box-infos {
@@ -382,7 +416,8 @@ main {
   justify-content: center;   
   align-items: center; 
   margin-bottom: 90px;
-  height: 180px;
+  height: 160px;
+  width: 300px;
   margin-top: -70px;
   z-index: 1;
 
