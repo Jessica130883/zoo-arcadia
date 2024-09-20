@@ -606,6 +606,50 @@ main {
 .title-animaux-marais {
   margin-bottom: 80px;
 }
+
+
+
+/* Page contact */
+
+.page-contact {
+  height: 500px;
+  display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    text-align: center;
+}
+.container-contact {
+  margin-top: 90px;
+  height: 300px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.title-form {
+  margin: 0 auto; 
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto; 
+}
+
+form {
+  width: 100%;
+}
+
+.row-contact {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%; 
+}
+
+
 /* Page login */
 .header-login {
   height: 150px;
