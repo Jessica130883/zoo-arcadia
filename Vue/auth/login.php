@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +24,7 @@
 
 <div class="container mt-5 mb-5 container-form bg-primary">
     <h2 class="title-connecter mb-4 pt-5 text-center text-secondary">Connexion</h2>
-    <form>
+    <form action="process_login.php" method="post">
         <div class="mb-3 form-group">
           <label for="EmailInput" class="form-label text-secondary">Email</label>
           <input type="email" class="form-control custom-width-input" id="EmailInput" placeholder="test@mail.fr" name="Email"> 
