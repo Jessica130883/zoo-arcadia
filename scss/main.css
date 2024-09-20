@@ -12114,6 +12114,7 @@ footer.footer {
 /* Le zoo */
 .list-lezoo {
   list-style: none;
+  font-family: lora;
 }
 
 .square-lezoo {
@@ -12122,6 +12123,11 @@ footer.footer {
 }
 
 .nb-box {
+  margin-top: 50px;
+  padding: 50px 50px;
+}
+
+.box-photos {
   margin-top: 50px;
 }
 
@@ -12371,6 +12377,9 @@ footer.footer {
     width: 400px;
   }
   /* Welcome section */
+  .welcome-section {
+    margin-top: 70px;
+  }
   .title-welcome, .subtitle-welcome {
     font-family: poppins;
   }
@@ -12457,6 +12466,10 @@ footer.footer {
   /* Le zoo */
   .list-lezoo {
     list-style: none;
+    font-family: lora;
+  }
+  .nb-box {
+    padding: 150px 150px;
   }
   /* Page contact */
   .page-contact {
