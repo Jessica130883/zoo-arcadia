@@ -21,8 +21,16 @@ main {
   
   .navbar {
     height: 100px;
-    
+  
   }
+  .navbar-collapse {
+    z-index: 2;
+}
+.nav-link {
+  color: $secondary;
+  font-family: poppins;
+}
+
   /* photo home */
     .picture-home {
         background-image: url(../public/images/img-home.jpg);
@@ -151,6 +159,18 @@ main {
 .title-animaux-marais {
   margin-bottom: 50px;
 }
+/* Page login */
+.header-login {
+  height: 150px;
+  width: 100%;
+}
+.title-login {
+  height: 190px;
+  clear: both;
+}
+.container-form {
+  margin-top: 50px;
+}
 
   
   
@@ -163,6 +183,10 @@ main {
     .navbar {
       height: 150px;
     }
+    .nav-link {
+      color: $secondary;
+    }
+
 
     /* photo home */
 
@@ -262,6 +286,18 @@ main {
 .title-animaux-marais {
   margin-bottom: 50px;
 }
+/* Page login */
+.header-login {
+  height: 150px;
+  width: 100%;
+}
+.title-login {
+  height: 190px;
+  clear: both;
+}
+.container-form {
+  margin-top: 50px;
+}
 
   
   /* Format desktop */
@@ -272,6 +308,9 @@ main {
     }
     .navbar {
       height: 100px;
+    }
+    .nav-link {
+      color: $primary;
     }
   
    .image-resize {
@@ -369,4 +408,34 @@ main {
 .title-animaux-marais {
   margin-bottom: 80px;
 }
+/* Page login */
+.header-login {
+  height: 150px;
+  width: 100%;
+}
+
+.custom-width-input {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.form-label {
+  margin-left: 25%;
+}
+
+.container-form {
+  height: 800px;
+  width: 550px;
+  margin-bottom: 200px;
+  
+}
+.btn-login {
+  height: 45px;
+  width: 100px;
+  margin-left: -395px;
+}
+
+
+
+
   }
