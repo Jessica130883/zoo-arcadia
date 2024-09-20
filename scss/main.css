@@ -12131,6 +12131,23 @@ footer.footer {
   margin-top: 50px;
 }
 
+/* Page animaux */
+.page-animaux {
+  margin: 50px 20px;
+}
+
+.box-leshabitats {
+  margin-top: 70px;
+}
+
+.title-savane, .title-jungle, .title-marais {
+  margin-bottom: 30px;
+}
+
+.title-stars {
+  margin-bottom: 40px;
+}
+
 /* Page contact */
 .page-contact {
   margin-top: 40px;
@@ -12288,6 +12305,19 @@ footer.footer {
   }
   .nb-box {
     margin-top: 50px;
+  }
+  /* Page animaux */
+  .page-animaux {
+    margin: 50px 20px;
+  }
+  .box-leshabitats {
+    margin-top: 70px;
+  }
+  .title-savane, .title-jungle, .title-marais {
+    margin-bottom: 30px;
+  }
+  .title-stars {
+    margin-bottom: 40px;
   }
 }
 /* Page contact */
@@ -12470,6 +12500,16 @@ footer.footer {
   }
   .nb-box {
     padding: 150px 150px;
+  }
+  /* Page animaux */
+  .page-animaux {
+    margin: 150px 70px;
+  }
+  .box-leshabitats {
+    margin-top: 70px;
+  }
+  .title-savane, .title-jungle, .title-marais {
+    margin-bottom: 30px;
   }
   /* Page contact */
   .page-contact {
